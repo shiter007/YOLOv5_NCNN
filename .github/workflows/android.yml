@@ -16,7 +16,7 @@ jobs:
     - name: set up JDK 10
       uses: actions/setup-java@v4
       with:
-        java-version: '8'
+        java-version: '9'
         distribution: 'dragonwell'
         cache: gradle
 
